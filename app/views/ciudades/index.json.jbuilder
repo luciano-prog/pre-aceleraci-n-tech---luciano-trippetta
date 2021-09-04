@@ -1,0 +1,1 @@
+json.ciudades @ciudades, :id, :denominacion

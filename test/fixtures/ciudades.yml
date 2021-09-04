@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: ciudades
+#
+#  id                 :integer          not null, primary key
+#  cantidad_habitante :integer
+#  denominacion       :string
+#  superficie         :float
+#  created_at         :datetime         not null
+#  updated_at         :datetime         not null
+#
+
+one:
+  denominacion: MyString
+  cantidad_habitante: 1
+  superficie: 1.5
+
+two:
+  denominacion: MyString
+  cantidad_habitante: 1
+  superficie: 1.5
