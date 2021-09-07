@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: continentes
+#
+#  id           :integer          not null, primary key
+#  ciudades     :string
+#  denominacion :string
+#  imagen       :string
+#  integer      :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  denominacion: MyString
+  imagen: MyString
+  ciudades: MyString
+  integer: MyString
+
+two:
+  denominacion: MyString
+  imagen: MyString
+  ciudades: MyString
+  integer: MyString

@@ -6,6 +6,7 @@
 ActiveSupport::Inflector.inflections(:en) do |inflect|
    inflect.irregular 'icono_geografico', 'iconos_geograficos'
    inflect.irregular 'ciudad', 'ciudades'
+   inflect.irregular 'continente', 'continentes'
 end
 
 # These inflection rules are supported but not enabled by default:

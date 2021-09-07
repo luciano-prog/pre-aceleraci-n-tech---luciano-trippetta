@@ -10,12 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_04_140945) do
+ActiveRecord::Schema.define(version: 2021_09_06_230225) do
 
   create_table "ciudades", force: :cascade do |t|
     t.string "denominacion"
     t.integer "cantidad_habitante"
     t.float "superficie"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "continentes", force: :cascade do |t|
+    t.string "denominacion"
+    t.string "imagen"
+    t.string "ciudades"
+    t.string "integer"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
